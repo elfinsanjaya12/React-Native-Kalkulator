@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-navigation
+
+PATH: 
+  C:\Users\Elfin Sanjaya\Documents\Software\cmder\bin;C:\Users\Elfin Sanjaya\Documents\Software\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\Elfin Sanjaya\Documents\Software\cmder\vendor\conemu-maximus5;C:\Users\Elfin Sanjaya\Documents\Software\cmder\vendor\conemu-maximus5\ConEmu;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Users\Elfin Sanjaya\AppData\Local\Microsoft\WindowsApps;C:\Users\Elfin Sanjaya\AppData\Roaming\npm;C:\Users\Elfin Sanjaya\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Elfin Sanjaya\AppData\Roaming\Composer\vendor\bin;C:\Users\Elfin Sanjaya\AppData\Local\Yarn\bin;C:\Program Files\Git\mingw64;C:\Program Files\Git\usr\bin;C:\Users\Elfin Sanjaya\Documents\Software\cmder
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Elfin Sanjaya\Documents\andaglos-developer-academy\Android\react-native-kalkulator-challenge\node_modules\.cache\@babel\register'
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "^31.0.2",
+      "react": "16.5.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^5.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
